@@ -27,6 +27,21 @@ These are the features currently implemented:
 1. -I flag is passed to the preprocessor.
 1. -std flag is passed to the compiler.
 
+Future work
+--------------
+
+These are the features I would like to implement someday:
+
+1. To compile C++ files.
+1. -D flag.
+1. It should be concurrent, run several commands at the same time.
+1. To support memcached.
+1. To cache memcached hits in the disk cache.
+1. To support distributed compilation.
+1. To improve disk cache: set max size, set ttl.
+1. To improve performance of disk cache.
+1. More options to the preprocessor, compiler, ar and linker.
+
 Example
 -------
 
