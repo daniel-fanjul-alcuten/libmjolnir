@@ -18,6 +18,15 @@ Configuration
 
 Many build systems use plain files that are hard to refactor when the source files are refactored. _libmjolnir_ is a go library that allows to write a program that builds the source files, so the build system in go must be compiled before the source files.
 
+Current status
+--------------
+
+These are the features currently implemented:
+
+1. It compiles C files.
+1. -I flag is passed to the preprocessor.
+1. -std flag is passed to the compiler.
+
 Example
 -------
 
