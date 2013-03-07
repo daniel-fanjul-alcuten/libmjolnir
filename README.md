@@ -26,6 +26,7 @@ These are the features currently implemented:
 1. It compiles C files.
 1. -I flag is passed to the preprocessor.
 1. -std flag is passed to the compiler.
+1. The output of the preprocessor, compiler, linker and other executables is cached.
 
 Future work
 --------------
@@ -34,6 +35,7 @@ These are the features I would like to implement someday:
 
 1. To compile C++ files.
 1. -D flag.
+1. -l flag.
 1. It should be concurrent, run several commands at the same time.
 1. To support memcached.
 1. To cache memcached hits in the disk cache.
